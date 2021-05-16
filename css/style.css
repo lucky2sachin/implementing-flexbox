@@ -2,7 +2,7 @@
     font-size: 1.125rem;
     color: #707070;
     max-width: 980px;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 h1{
@@ -16,16 +16,23 @@ h1 span{
 
 .columns{
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0.5em 0;
+    text-align: justify;
 }
-.col{
-    margin: 0.5em;
-    text-align:justify;
-    
+.col-1{
+    width: 20%;
+}
+.col-2{
+    width: 45%;
 }
 .col-accent{
     background-color: #312614;
     color: #fff;
     padding: 1em;
 }
-
+.col-3{
+    width: 69%;
+}
 
